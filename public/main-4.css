@@ -1,0 +1,49 @@
+div.about {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+    position: relative;
+    }
+
+div.about div.text_block {
+    width: 68%;
+    padding: 40px 0 90px 0;
+    background-color: #F9F6F4;
+    }
+
+div.about div.text_block div.bl_inner {
+    width: 68%;
+    margin: 0 0 0 35px;
+    }
+
+div.about div.text_block div.bl_inner h3 {
+    width: auto;
+    font-size: 22px;
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+    }
+
+div.about div.text_block div.bl_inner h3:after {
+    content: "";
+    width: 280px;
+    height: 1px;
+    display: block;
+    background-color: #241F1A;
+    position: absolute;
+    left: -70px;
+    bottom: -10px;
+    }
+
+div.about div.text_block div.bl_inner p.l_text {
+    width: auto;
+    padding: 60px 0 0 0;
+    font-size: 22px;
+    font-family:"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,serif;
+    }
+
+div.about div.text_block div.bl_inner p.text {
+    width: auto;
+    padding: 0 0 15px 0;
+    font-size: 14px;
+    }
